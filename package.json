@@ -1,0 +1,26 @@
+{
+  "name": "qa-challenge", 
+  "version": "1.0.0",    
+  "description": "Desafio de QA com Playwright", 
+  "main": "index.js", 
+  "scripts": {
+    "test": "npx playwright test",
+    "test:all": "npx playwright test",
+    "test:ui": "npx playwright test --project=ui_tests",
+    "test:api": "npx playwright test --project=api_tests",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "qa",
+    "automation"
+  ],
+  "author": "Seu Nome Aqui", 
+  "license": "ISC", 
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",       
+    "typescript": "^5.0.0"        
+  }
+}
